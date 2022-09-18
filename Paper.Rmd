@@ -46,7 +46,7 @@ output:
         gutter: 0
         
 bibliography: reference.bib
-csl: china-national-standard-gb-t-7714-2015-author-date.csl
+csl: journal-of-finance.csl
 ---
 
 ```{r setup, include=FALSE}
