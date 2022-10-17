@@ -46,7 +46,7 @@ output:
         gutter: 0
         
 bibliography: reference.bib
-csl: journal-of-finance.csl
+csl: journal-of-economics-and-finance.csl
 ---
 
 ```{r setup, include=FALSE}
@@ -130,6 +130,8 @@ fpar_2
 
 Exchange-Traded Fund (ETF) is a financial innovation product. Like a closed-end fund, it can be bought and sold throughout the day on stock exchanges, and like an open-end fund, it allows investors to purchase and redeem. ETFs are favored by investors due to low expense ratios, high level of diversification, and transparency of portfolio. Since the launch of the SSE 50 ETF in the Chinese stock market in 2004, the number and assets size of stock ETFs have been growing rapidly. From 2010 to 2019, the number of stock ETFs has increased from 18 to 243, and the size of assets has increased from 74.658 billion to 851.169 billion RMB (Figure 1)
 
+There is growing literature beginning to explore the potential impact of ETF trading on the securities underlying their portfolios due to the increasing asset under management. several early studies suggest that ETF trading improves price discovery for the underlying assets[@chen2008contribution; @fang2011index; @ivanov2013analysis], while more recent literature shows that the superior liquidity of ETFs attracts noise traders and create arbitrage opportunities, the arbitrage activity executed by authorized participants(AP) and other sophisticated traders transmit noise to underlying assets price[@israeli2017there; @ben2018etfs; @broman2018relative]. However, many of those studies often discuss the relationship between ETF ownership and market quality under the assumption that transmission of noise through arbitrage mechanism, and , they don't study whether arbitrage opportunities are created by the ETF noise traders or the underlying assets noise traders. In this paper, we answer the question by comparing mispricing condition probability of ETFs and their underlying assets,and examine whether ETF trading affects the price of underlying assets across a sample of 599 passively managed equity ETFs from 2014 to 2021 in China A-share market.
+
 # Literature Review and Research Hypotheses
 
 This paper studies whether ETF improves pricing efficiency of underlying assets and explores its mechanism. We define pricing efficiency as the degree to which prices reflect all available information in terms of speed and accuracy.
@@ -149,6 +151,10 @@ Compared with the mature capital market, the Chinese market is special, where th
 ## Data Description
 
 In order to study the impact of ETF ownership on the efficiency of stock price and explore its mechanism, this paper selects the ETF constituent stocks traded in the Chinese market from January 2011 to December 2019 as the research sample. After excluding bond ETFs, currency ETFs and cross-border ETFs in the study, there are 188 ETFs and 2,369 stocks in our sample. Research data mainly includes stock trading data, listed company characteristics data, listed company financial report data, ETF constituent stocks weight data, and ETF purchase and redemption data. Among them, the ETF constituent stocks weight data comes from the Tushare financial database, and the rest of the data comes from the CSMAR database. The financial report data of listed companies is quarterly frequency, and the remaining data frequency is monthly frequency.
+
+(1) when premium keep costant.
+
+(2) when the intensity of price to arbitrage activity.
 
 `r insert(1,"T")`
 
